@@ -1,0 +1,160 @@
+body {
+	margin: 0em;
+	font-family: sans-serif;
+	background-color: #1d1e20;
+	color: white;
+        width: 50%;
+        margin-left: 25%;
+}
+
+
+/* Change default behaviors */
+p,h1,h2,h3,h4,h5,h6 {
+	text-align: center;
+	margin: 0em;
+}
+
+
+/* Hyperlinks */
+a {
+	text-decoration-line: none;
+	font-weight: bold;
+	color: white;
+}
+
+a:hover {
+	opacity: 0.6;
+}
+
+
+/* Horizontal alignment */
+header,section {
+	left: 50%;
+}
+
+
+/* Vertical alignments */
+header {
+	top: 5%;
+}
+
+section {
+	margin-top: 5em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+        margin-bottom: 5em;
+}
+
+footer {
+	/* bottom: 0%; */
+	font-style: italic;
+	opacity: 0.5;
+	font-size: small;
+}
+
+
+#logo {
+	max-width: 12em;
+	margin-bottom: 1em;
+}
+
+#networks {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 1em;
+	width: 10em;
+	opacity: 1;
+}
+
+#mastodon, #rootme {
+	max-width: 1.75em;
+}
+
+#github, #linkedin {
+	max-width: 1.55em;
+}
+
+#email {
+	display: inline;
+	vertical-align: super;
+	font-size: 1.25em;
+}
+
+.projects {
+        width: 75%;
+        text-align: left;
+        list-style-type: none;
+        padding: unset;
+}
+
+.project h3 {
+        text-align: left;
+        color: #4493f8;
+        margin-right: 0.5em;
+}
+
+.project_header {
+        margin-bottom: 0.25em;
+}
+
+.project_desc {
+        margin-bottom: 1em;
+        text-align: justify;
+}
+
+.project_tags {
+        list-style-type: none;
+        padding: unset;
+        margin-bottom: 1em;
+}
+
+.project_tags li {
+        display: inline;
+        margin: 0em 0.125em 0.333em 0em;
+        background-color: #388bfd1a;
+        padding: 8px 10px;
+        border-radius: 2em;
+        color: #4493f8;
+        font-size: 0.75rem;
+
+}
+
+.project_footer {
+        display: flex;
+        justify-content: space-between;
+}
+
+.project_main_lang {
+        font-size: smaller;
+}
+
+.project_more {
+        font-size: smaller;
+}
+
+hr {
+        width: 100%;
+        opacity: 0.125;
+        margin: 1.5em 0em;
+}
+
+.project_type {
+        border: 1px solid grey;
+        border-radius: 2em;
+        font-size: small;
+        opacity: 0.5;
+        padding: 5px;
+        font-weight: 500;
+}
+
+.project_header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline
+}
+
+section > p {
+        text-align: left;
+}
